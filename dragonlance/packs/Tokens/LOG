@@ -1,0 +1,31 @@
+2026/07/25-12:56:34.430 49d0 Delete type=3 #1
+2026/07/25-13:10:27.289 494c Level-0 table #5: started
+2026/07/25-13:10:27.314 494c Level-0 table #5: 1944694 bytes OK
+2026/07/25-13:10:27.316 494c Delete type=0 #3
+2026/07/25-13:17:00.154 494c Level-0 table #7: started
+2026/07/25-13:17:00.175 494c Level-0 table #7: 1995346 bytes OK
+2026/07/25-13:17:00.176 494c Delete type=0 #4
+2026/07/25-13:28:53.648 494c Level-0 table #9: started
+2026/07/25-13:28:53.658 494c Level-0 table #9: 802898 bytes OK
+2026/07/25-13:28:53.658 494c Delete type=0 #6
+2026/07/25-13:28:53.661 494c Manual compaction at level-0 from '!folders!4ei3JjtaDTsxMqIu' @ 72057594037927935 : 1 .. '!scenes.walls!zuSyYRJi2BvfyIgq.j9wnIyF1Q8q3QpPo' @ 0 : 0; will stop at '!scenes.walls!v0ybtiXlEzZ3jDG3.xNCKQli7tZJLLoxk' @ 20252 : 1
+2026/07/25-13:28:53.661 494c Compacting 1@0 + 1@1 files
+2026/07/25-13:28:53.686 494c Generated table #10@0: 9590 keys, 2143189 bytes
+2026/07/25-13:28:53.696 494c Generated table #11@0: 7398 keys, 648208 bytes
+2026/07/25-13:28:53.696 494c Compacted 1@0 + 1@1 files => 2791397 bytes
+2026/07/25-13:28:53.696 494c compacted to: files[ 0 2 1 0 0 0 0 ]
+2026/07/25-13:28:53.698 494c Delete type=2 #7
+2026/07/25-13:28:53.698 494c Delete type=2 #9
+2026/07/25-13:28:53.698 494c Manual compaction at level-0 from '!scenes.walls!v0ybtiXlEzZ3jDG3.xNCKQli7tZJLLoxk' @ 20252 : 1 .. '!scenes.walls!zuSyYRJi2BvfyIgq.j9wnIyF1Q8q3QpPo' @ 0 : 0; will stop at (end)
+2026/07/25-13:28:53.698 494c Expanding@1 1+1 (2143189+1944694 bytes) to 2+1 (2791397+1944694 bytes)
+2026/07/25-13:28:53.698 494c Manual compaction at level-1 from '!folders!4ei3JjtaDTsxMqIu' @ 72057594037927935 : 1 .. '!scenes.walls!zuSyYRJi2BvfyIgq.j9wnIyF1Q8q3QpPo' @ 0 : 0; will stop at '!scenes.walls!zlLDyiXN7zF1sjjs.zE3bnmgFw9TcJjGX' @ 15248 : 1
+2026/07/25-13:28:53.698 494c Compacting 2@1 + 1@2 files
+2026/07/25-13:28:53.720 494c Generated table #12@1: 4252 keys, 2132367 bytes
+2026/07/25-13:28:53.749 494c Generated table #13@1: 17074 keys, 2161404 bytes
+2026/07/25-13:28:53.757 494c Generated table #14@1: 4364 keys, 440253 bytes
+2026/07/25-13:28:53.757 494c Compacted 2@1 + 1@2 files => 4734024 bytes
+2026/07/25-13:28:53.758 494c compacted to: files[ 0 0 3 0 0 0 0 ]
+2026/07/25-13:28:53.758 494c Delete type=2 #5
+2026/07/25-13:28:53.758 494c Delete type=2 #10
+2026/07/25-13:28:53.758 494c Delete type=2 #11
+2026/07/25-13:28:53.761 494c Manual compaction at level-1 from '!scenes.walls!zlLDyiXN7zF1sjjs.zE3bnmgFw9TcJjGX' @ 15248 : 1 .. '!scenes.walls!zuSyYRJi2BvfyIgq.j9wnIyF1Q8q3QpPo' @ 0 : 0; will stop at (end)
